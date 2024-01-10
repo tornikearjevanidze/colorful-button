@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #1E1F25;
+}
+
+root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+}
+
+   
+   
+
+
+.button{
+
+    align-items: center;
+    height: 170px;
+    width: 350px;
+    background-color:#000;
+    color: #cbcbcb;
+    font-size: 20px;
+
+ border-image: linear-gradient( 115deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83) 1;
+border-width: 10px;
+border-style: solid;
+
+    
+}
+
+/*.button-border{
+border-image: linear-gradient( 115deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83) 1;
+border-width: 30px;
+border-style: solid;
+
+}
+*/
+
+
+
+button:hover{
+    width: 380;
+    height: 370;
+    color: rgb(246, 245, 250);
+    background-color: #0e0112;
+    font-size: 30px;
+    border-style: dotted;
+    border-width: 20px;
+    border-image: linear-gradient( 115deg,#6a0d83,#ce4993,#ee5d6c,#fb9062,#eeaf61) 1;
+border-width: 5px;
+border-style: solid;
+}
+
+
+
